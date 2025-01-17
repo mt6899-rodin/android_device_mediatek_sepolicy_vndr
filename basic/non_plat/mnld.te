@@ -119,3 +119,7 @@ allow mnld sysfs_leds:file r_file_perms;
 #Add for /nvcfg/almanac.dat
 allow mnld nvcfg_file:dir w_dir_perms;
 allow mnld nvcfg_file:file create_file_perms;
+
+# Allow to read /sys/kernel/ccci/*
+allow mnld sysfs_ccci:dir search;
+allow mnld sysfs_ccci:file r_file_perms;
