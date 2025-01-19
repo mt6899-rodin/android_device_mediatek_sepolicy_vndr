@@ -18,3 +18,4 @@ android.hardware.drm.IDrmFactory/widevine    u:object_r:hal_drm_service:s0
 
 #apusys aidl
 vendor.mediatek.hardware.apuware.apusys.INeuronApusys/default u:object_r:hal_neuralnetworks_service:s0
+vendor.mediatek.hardware.apuware.utils.IApuwareUtils/default u:object_r:hal_neuralnetworks_service:s0
