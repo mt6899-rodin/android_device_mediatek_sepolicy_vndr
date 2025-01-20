@@ -1,0 +1,3 @@
+attribute hal_mtk_videotelephony;
+attribute hal_mtk_videotelephony_client;
+attribute hal_mtk_videotelephony_server;

@@ -1,0 +1,1 @@
+type mtk_hal_videotelephony_service, protected_service, service_manager_type, hal_service_type;
