@@ -286,6 +286,7 @@ vendor.powerhal.gpu.     u:object_r:vendor_mtk_powerhal_gpu_prop:s0
 
 # MTK Wifi wlan_assistant property
 vendor.mtk.nvram.ready u:object_r:vendor_mtk_nvram_ready_prop:s0
+vendor.service.wifi_nvram u:object_r:vendor_mtk_service_wifi_nvram_prop:s0
 
 # Wi-Fi Hotspot
 ro.vendor.wifi.sap.interface u:object_r:vendor_mtk_wifi_hotspot_prop:s0
