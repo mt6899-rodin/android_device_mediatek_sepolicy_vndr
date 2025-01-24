@@ -271,3 +271,6 @@ hal_client_domain(system_server, hal_mtkcodecservice)
 
 # Allow to perform binder IPC to mtk_hal_mmlpq.
 binder_call(system_server, mtk_hal_mmlpq)
+
+# Allow to find mtk_hal_mali_platform_default_service
+allow system_server mtk_hal_mali_platform_default_service:service_manager find;

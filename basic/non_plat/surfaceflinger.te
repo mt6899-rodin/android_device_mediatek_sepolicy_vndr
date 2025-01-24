@@ -102,3 +102,6 @@ get_prop(surfaceflinger, vendor_mtk_debug_sf_cpupolicy_prop)
 
 # Allow to use Composer Extension
 hal_client_domain(surfaceflinger, hal_mtk_composer_ext)
+
+# Allow to find mtk_hal_mali_platform_default_service
+allow surfaceflinger mtk_hal_mali_platform_default_service:service_manager find;

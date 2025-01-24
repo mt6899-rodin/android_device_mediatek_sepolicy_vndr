@@ -10,3 +10,6 @@ allowxperm priv_app proc_mtk_jpeg:file ioctl {
       JPG_BRIDGE_DEC_IO_WAIT
       JPG_BRIDGE_DEC_IO_UNLOCK
 };
+
+# Allow to find mtk_hal_mali_platform_default_service
+allow platform_app mtk_hal_mali_platform_default_service:service_manager find;

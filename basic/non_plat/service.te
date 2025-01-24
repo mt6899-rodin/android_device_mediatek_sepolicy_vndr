@@ -3,6 +3,7 @@ type mtk_hal_atms_service, protected_service, service_manager_type, hal_service_
 type mtk_hal_bgs_service, protected_service, service_manager_type, hal_service_type;
 type mtk_hal_isphal_service, protected_service, service_manager_type, hal_service_type;
 type mtk_hal_composer_ext_service, protected_service, service_manager_type, hal_service_type;
+type mtk_hal_mali_platform_default_service, service_manager_type, hal_service_type;
 type mtk_hal_mmagent_service, protected_service, service_manager_type, hal_service_type;
 type mtk_hal_mmlpq_service, protected_service, service_manager_type;
 type mtk_hal_nvramagent_service, protected_service, service_manager_type, hal_service_type;

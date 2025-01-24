@@ -38,3 +38,6 @@ allow bootanim gpu_device:dir search;
 # Operation : Migration
 # Purpose : donotaudit data directory search
 dontaudit bootanim system_data_file:dir search;
+
+# Allow to find mtk_hal_mali_platform_default_service
+allow bootanim mtk_hal_mali_platform_default_service:service_manager find;
