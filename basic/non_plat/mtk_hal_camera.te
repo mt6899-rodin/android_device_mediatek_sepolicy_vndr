@@ -14,7 +14,10 @@ init_daemon_domain(mtk_hal_camera)
 # Allow a base set of permissions required for a domain to offer a
 # HAL implementation of the specified type over HwBinder.
 hal_server_domain(mtk_hal_camera, hal_camera)
+hal_server_domain(mtk_hal_camera, hal_mtk_aov)
+hal_server_domain(mtk_hal_camera, hal_mtk_atms)
 hal_server_domain(mtk_hal_camera, hal_mtk_bgs)
+hal_server_domain(mtk_hal_camera, hal_mtk_isphal)
 
 # Allow camerahalserver to use vendor binder IPC.
 vndbinder_use(mtk_hal_camera)

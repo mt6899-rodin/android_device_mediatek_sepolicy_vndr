@@ -1,0 +1,12 @@
+# Camera
+attribute hal_mtk_aov;
+attribute hal_mtk_aov_client;
+attribute hal_mtk_aov_server;
+
+attribute hal_mtk_atms;
+attribute hal_mtk_atms_client;
+attribute hal_mtk_atms_server;
+
+attribute hal_mtk_isphal;
+attribute hal_mtk_isphal_client;
+attribute hal_mtk_isphal_server;
