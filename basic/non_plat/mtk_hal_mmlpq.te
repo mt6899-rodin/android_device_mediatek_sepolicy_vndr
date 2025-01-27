@@ -11,6 +11,7 @@ hal_client_domain(mtk_hal_mmlpq, hal_mtk_pq)
 hal_client_domain(mtk_hal_mmlpq, hal_allocator)
 hal_server_domain(mtk_hal_mmlpq, hal_mtk_mmlpq)
 
+get_prop(mtk_hal_mmlpq, boot_status_prop)
 set_prop(mtk_hal_mmlpq, vendor_mtk_pq_prop)
 
 allow mtk_hal_mmlpq fwk_sensor_hwservice:hwservice_manager find;
