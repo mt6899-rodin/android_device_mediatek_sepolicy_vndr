@@ -121,3 +121,6 @@ type sysfs_fs_chg_file, fs_type, sysfs_type;
 
 # For InputReader scan and search power_supply path
 type sysfs_power_supply, fs_type, sysfs_type;
+
+# For camerahalserver
+type proc_curr_cpu_loading, fs_type, proc_type;

@@ -53,3 +53,6 @@ genfscon sysfs /devices/platform/charger/fast_chg_indicator   u:object_r:sysfs_f
 # Operation: S migration
 # Purpose: Add permission for inputReader search every input device path including "power_supply"
 genfscon sysfs /devices/virtual/power_supply u:object_r:sysfs_power_supply:s0
+
+# For camerahalserver
+genfscon proc /cpu_loading/curr_cpu_loading u:object_r:proc_curr_cpu_loading:s0

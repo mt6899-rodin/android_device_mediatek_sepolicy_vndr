@@ -103,3 +103,8 @@ allow mtk_hal_camera remosaic_daemon_service:service_manager find;
 # Stage: R Migration
 # Purpose: Allow memfd access by MPEG4Writer
 allow mtk_hal_camera tmpfs:file rw_file_perms;
+
+# Allow camerahalserver access
+allow mtk_hal_camera proc_curr_cpu_loading:file r_file_perms;
+allow mtk_hal_camera proc_pressure_cpu:file rw_file_perms;
+allow mtk_hal_camera proc_pressure_io:file rw_file_perms;
