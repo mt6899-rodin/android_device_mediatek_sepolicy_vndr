@@ -268,3 +268,6 @@ allow system_server proc_mgq:dir search;
 allow system_server mtk_hal_pq:process signal;
 
 hal_client_domain(system_server, hal_mtkcodecservice)
+
+# Allow to perform binder IPC to mtk_hal_mmlpq.
+binder_call(system_server, mtk_hal_mmlpq)
