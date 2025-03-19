@@ -198,3 +198,6 @@ allow rild gsi_metadata_file:dir search;
 
 # Allow rw access to nvram devices
 allow rild nvram_device:blk_file rw_file_perms;
+
+# CNOP VOWIFI support
+get_prop(rild, vendor_mtk_cnop_vowifi_prop)
